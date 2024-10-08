@@ -29,7 +29,7 @@ async def test_registration_email():
         # Fill year
         await registration_page.fill_year("1994")
         # Click month button
-        await registration_page.select_month(6)
+        await registration_page.select_month(5)
         # Pick gender
         await registration_page.pick_gender(3)
         # Click Next
